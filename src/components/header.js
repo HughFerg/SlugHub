@@ -10,29 +10,9 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
-  <ul>
-    <li><img src={logo} /></li>
-  </ul>
-    {/* <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        maxHeight: 100,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-      <img src={logo} />
-        </Link>
-      </h1>
-    </div> */}
+    <ul>
+      <li><img src={logo} /></li>
+    </ul>
   </header>
 )
 
