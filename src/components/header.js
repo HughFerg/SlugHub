@@ -10,9 +10,7 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
-    <ul>
-      <li><img src={logo} /></li>
-    </ul>
+    <div><img src={logo} /></div>
   </header>
 )
 
